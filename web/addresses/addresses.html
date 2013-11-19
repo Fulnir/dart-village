@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- 
+  Copyright (C) 2013 Edwin Bühler. All Rights Reserved.
+  @author Edwin Bühler 
+-->
+
+<meta charset="utf-8">
+<link rel="import" href="address.html">
+
+
+<polymer-element name="village-addresses">
+
+  <template> 
+    <ul class="well unstyled">
+      <h2>Addresses</h2>
+      <template repeat="{{address in addresses}}" >
+        <li is='village-address' address='{{address}}'></li>
+      </template>
+    </ul>
+  </template>
+  
+  <script type="application/dart" src="addresses.dart"></script>
+</polymer-element>

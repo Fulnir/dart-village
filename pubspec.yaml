@@ -1,0 +1,14 @@
+name: Dart_Village
+version: 0.1.0
+author: Edwin Bühler <fulnir@gmail.com>
+description: A sample Polymer application for a village web site.
+homepage: https://github.com/Fulnir/dart-village
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
+dependencies:
+  crypto: any
+  gravatar: any
+  logging: any
+  polymer: any
+  rikulo_ui: any
+  yaml: any

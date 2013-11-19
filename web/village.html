@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- 
+  Copyright (C) 2013 Edwin Bühler. All Rights Reserved.
+  @author Edwin Bühler 
+-->
+
+<meta charset="utf-8">
+<link rel="import" href="menus/navbar.html">
+<link rel="import" href="infos/imprint.html">
+<link rel="import" href="addresses/addresses.html">
+
+
+<polymer-element name="village-app">
+
+  <template>
+  <!-- 
+    <div id="village_navbar_id">
+      <village-navbar></village-navbar>
+    </div> 
+   -->
+    
+    <h1>{{title}}</h1>
+
+    <!-- <p>Hello world from Dart <i class="fa fa-anchor"></i></p> -->
+  
+    <div id="village_imprint_id">
+      <village-imprint></village-imprint>
+    </div>  
+    
+    
+    <div id="village_addresses_container_id">
+      <village-addresses></village-addresses>
+    </div>
+  </template>
+  
+  <script type="application/dart" src="village.dart"></script>
+</polymer-element>

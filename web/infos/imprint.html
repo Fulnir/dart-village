@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- 
+  Copyright (C) 2013 Edwin Bühler. All Rights Reserved.
+  @author Edwin Bühler 
+-->
+
+<meta charset="utf-8">
+<link rel="import" href="stamp.html">
+<link rel="import" href="../addresses/address.html">
+
+<polymer-element name="village-imprint">
+
+  <template>
+  <div class="well unstyled">
+    <h1>Imprint</h1>
+  
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <div id="village_stamp_id">
+              <village-stamp email='{{imprintAddress.email}}'></village-stamp>
+            </div>
+          </td>
+          <td>
+            <div id="village_imprint_address_id">
+              <b>{{imprintAddress.name}}</b>
+              <br>
+              <b>{{imprintAddress.email}}</b>
+              <br>
+              <b>{{imprintAddress.web}}</b>
+            </div>
+          </td>
+        </tr>
+      </tbody>  
+    </table>
+  </div>
+  </template>
+  <script type="application/dart" src="imprint.dart"></script>
+</polymer-element>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!-- 
+  Copyright (C) 2013 Edwin Bühler. All Rights Reserved.
+  @author Edwin Bühler 
+-->
+
+<meta charset="utf-8">
+
+
+<polymer-element name="village-navbar">
+
+  <template> 
+    <ul>
+      <template repeat="{{menuentry in menubar}}" >
+        <li>
+
+          <a class="btn" href="{{ menuentry['page']}}">{{menuentry['title']}}</a>
+        </li>
+      </template>
+    </ul>
+  </template>
+  
+  <script type="application/dart" src="navbar.dart"></script>
+</polymer-element>

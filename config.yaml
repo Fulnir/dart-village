@@ -1,0 +1,11 @@
+title: Dart Village
+host: www.dartvillage.org
+imprintEmail: fulnir@gmail.com
+addresses:
+  Dart Lang:
+    web: www.dartlang.org
+  Edwin:
+    web: www.edwin-buehler.net
+    email: fulnir@gmail.com
+navbar:
+  Info: infos/infos.html
