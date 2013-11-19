@@ -19,7 +19,7 @@ class  VillageConfig {
   static Future  initialize() {
     var completer = new Completer();
     VillageConfig newConfig = new VillageConfig();
-    HttpRequest.getString("../config.yaml").then(
+    HttpRequest.getString("config.yaml").then(
         (configText) {
           var configMap =loadYaml(configText);
 
